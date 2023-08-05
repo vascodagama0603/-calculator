@@ -130,15 +130,15 @@ const SubLayout = styled.div`
 `;
 
 const Label = styled.input`
-  margin:5px;
+  width: -webkit-fill-available;
 `;
 const Item = styled.div`
-padding: 1em 1.5em;
-margin: 1em 0;
-background-color:#f4f9ff;
-border:1px solid #84c1ff;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-color:#000000;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  background-color:#f4f9ff;
+  border:1px solid #84c1ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color:#000000;
 `;
 const ItemRow = styled.div`
   display:flex;
