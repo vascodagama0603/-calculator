@@ -130,6 +130,7 @@ const SubLayout = styled.div`
 `;
 
 const Label = styled.input`
+  margin:5px;
   width: -webkit-fill-available;
 `;
 const Item = styled.div`
