@@ -105,6 +105,7 @@ const Layout = () => {
 }
 const TopLayout = styled.div`
   display:flex;
+  justify-content: center;
 `;
 const MainLayout = styled.div`
   flex-direction: column;
