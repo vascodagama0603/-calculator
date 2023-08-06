@@ -126,6 +126,7 @@ const SubLayout = styled.div`
   text-align: center;
   height:100vh;
   width:100%;
+  max-width:400px;
 `;
 
 const Label = styled.input`
