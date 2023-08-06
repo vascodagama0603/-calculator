@@ -21,7 +21,7 @@ const MainLayout = styled.div`
 const WindowLayout = styled.div`
   font-size: 40px;
   text-align: center;
-  height: 25vh;
+  height: 22vh;
   vertical-align:middle;
   line-height: 50px;
   word-break: break-all;
