@@ -106,11 +106,13 @@ const Layout = () => {
 const TopLayout = styled.div`
   display:flex;
   justify-content: center;
+  
 `;
 const MainLayout = styled.div`
   flex-direction: column;
   align-items: flex-end;
-
+  width: 100%;
+  max-width: 600px;
 `;
 const Row = styled.div`
   display:flex;
