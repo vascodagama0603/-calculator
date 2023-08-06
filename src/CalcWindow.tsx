@@ -24,14 +24,17 @@ const WindowLayout = styled.div`
   height: 25vh;
   vertical-align:middle;
   line-height: 50px;
+a  overflow-wrap: break-word;
+  
 `;
 
 const PreviewLayout = styled.div`
   font-size: 20px;
   text-align: right;
-  height: 10vh;
+  height: 15vh;
   vertical-align:middle;
   line-height: 30px;
   color:gray;
+  overflow-wrap: break-word;
 `;
 export default CalcWindow;
