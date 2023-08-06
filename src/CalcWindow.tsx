@@ -24,8 +24,7 @@ const WindowLayout = styled.div`
   height: 25vh;
   vertical-align:middle;
   line-height: 50px;
-a  overflow-wrap: break-word;
-  
+  word-break: break-all;
 `;
 
 const PreviewLayout = styled.div`

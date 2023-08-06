@@ -153,6 +153,7 @@ const Item = styled.div`
 const ItemRow = styled.div`
   display:flex;
   justify-content: center;
+  
 `;
 
 const ItemStyle = styled.div`
