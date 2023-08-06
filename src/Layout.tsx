@@ -49,7 +49,6 @@ const Layout = () => {
           <Row>
             <Button name="CE"/>
             <Button name="C"/>
-            <Button name="%"/>
             <Button name="←"/>
             <Button name="÷"/>
           </Row>
@@ -106,6 +105,7 @@ const Layout = () => {
 const TopLayout = styled.div`
   display:flex;
   justify-content: center;
+  max-width: 100%;
   
 `;
 const MainLayout = styled.div`
@@ -113,15 +113,18 @@ const MainLayout = styled.div`
   align-items: flex-end;
   width: 100%;
   max-width: 600px;
+  min-width: 10px;
 `;
 const Row = styled.div`
   display:flex;
   min-height:70px;
   padding: 0.2rem;
+  justify-content: center;
 `;
 const ButtonsLayout = styled.div`
   align-items: flex-end;
   height:40vh;
+  font-size: 12px;
 `;
 
 const SubLayout = styled.div`
@@ -130,6 +133,7 @@ const SubLayout = styled.div`
   height:100vh;
   width:100%;
   max-width:400px;
+  min-width: 40px;
 `;
 
 const Label = styled.input`

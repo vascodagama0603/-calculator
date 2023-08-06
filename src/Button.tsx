@@ -183,6 +183,7 @@ const ButtonLayout = styled.button`
   text-align: center;
   color: Black;
   width: 100%;
+  
 `;
 
 export default Button;
