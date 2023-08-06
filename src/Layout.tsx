@@ -109,12 +109,11 @@ const TopLayout = styled.div`
 const MainLayout = styled.div`
   flex-direction: column;
   align-items: flex-end;
-  height:98vh;
-  width:150vh;
+
 `;
 const Row = styled.div`
   display:flex;
-  min-height:80px;
+  min-height:70px;
   padding: 0.2rem;
 `;
 const ButtonsLayout = styled.div`
@@ -125,16 +124,18 @@ const ButtonsLayout = styled.div`
 const SubLayout = styled.div`
   flex-direction: column;
   text-align: center;
-  height:98vh;
-  width:40vh;
+  height:100vh;
+  width:100%;
 `;
 
 const Label = styled.input`
   margin:5px;
+  width:100%;
   width: -webkit-fill-available;
 `;
 const Item = styled.div`
-  padding: 1em 1.5em;
+  witdh:100%;
+  padding: 0.1em 0.1em;
   margin: 1em 0;
   background-color:#f4f9ff;
   border:1px solid #84c1ff;
@@ -143,18 +144,17 @@ const Item = styled.div`
 `;
 const ItemRow = styled.div`
   display:flex;
+  justify-content: center;
 `;
 
 const ItemStyle = styled.div`
-  width:150vh;
+  margin: auto;
 `;
 const CloseButtonStyle = styled.div`
-  width:100px;
-  text-align: left;
+
 `;
 
 const CloseButton = styled.div`
-font-size: 100%;/*ボタンの大きさ*/
 font-weight: bold;
 border: 1px solid #999;
 color: #999;

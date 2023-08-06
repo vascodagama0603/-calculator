@@ -19,6 +19,7 @@ const GREY_DIM = '#686868';
 
 const styles = {
   zone: {
+    
     background:"white",
     alignItems: 'center',
     border: `2px dashed ${GREY}`,
