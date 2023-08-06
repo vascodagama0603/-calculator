@@ -21,7 +21,7 @@ const MainLayout = styled.div`
 const WindowLayout = styled.div`
   font-size: 40px;
   text-align: center;
-  height: 30vh;
+  height: 25vh;
   vertical-align:middle;
   line-height: 50px;
 `;
@@ -31,7 +31,7 @@ const PreviewLayout = styled.div`
   text-align: right;
   height: 10vh;
   vertical-align:middle;
-  line-height: 50px;
+  line-height: 30px;
   color:gray;
 `;
 export default CalcWindow;
